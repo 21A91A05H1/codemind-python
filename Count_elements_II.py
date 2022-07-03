@@ -13,3 +13,4 @@ d=set(c)
 for i in d:
     s+=1
 print(s)
+
