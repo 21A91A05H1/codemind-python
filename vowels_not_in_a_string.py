@@ -11,4 +11,3 @@ for i in c:
         print(i,end=' ')
 if m==0:
     print(0)
-        
