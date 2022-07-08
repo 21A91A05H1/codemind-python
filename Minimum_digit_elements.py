@@ -19,4 +19,3 @@ for i in a:
     if c==min:
         s+=1
 print(s)
-        
