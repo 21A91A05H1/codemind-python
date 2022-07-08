@@ -19,4 +19,3 @@ for i in a:
     if c==max:
         s+=1
 print(s)
-        
