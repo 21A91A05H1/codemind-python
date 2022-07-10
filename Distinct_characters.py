@@ -4,7 +4,7 @@ b=[]
 for i in s:
     if i==' ':
         continue
-    if ord(i) not in b:
+    if s.count(i)==1:
         b.append(ord(i))
 b.sort()
 for i in b:
