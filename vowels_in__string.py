@@ -1,7 +1,7 @@
-s=(input())
-a='aeiouAEIOU'
+s=input()
 c=0
 b=[]
+a='AEIOUaeiou'
 for i in s:
     if i in a:
         b.append(i)
@@ -9,8 +9,9 @@ for i in s:
 if c==0:
     print(-1)
 else:
-    d=[]
+    l=[]
     for i in b:
-       if i not in d:
-           d.append(i)
-    print(*d)
+        if i not in l:
+            l.append(i)
+    print(*l)
+    
