@@ -20,4 +20,3 @@ for i in d:
     if m==max:
         s+=1
 print(s)
-            
