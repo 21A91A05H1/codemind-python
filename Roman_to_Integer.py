@@ -24,13 +24,13 @@ def romantodecimal(str):
             s2 = value(str[i + 1])
             if (s1 >= s2):
                 res = res + s1
-                i = i + 1
+                i+=1
             else:
  
                 res = res + s2 - s1
-                i = i + 2
+                i+=2
         else:
             res = res + s1
-            i = i + 1
+            i+=1
     return res
 print(romantodecimal(input()))
