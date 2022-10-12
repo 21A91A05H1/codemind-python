@@ -15,4 +15,3 @@ for i in d:
             print(i[k],end='')
     print(end=' ')
     
-            
