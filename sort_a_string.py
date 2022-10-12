@@ -15,6 +15,3 @@ for i in d:
         else:
             print(i[k],end='')
     print(end=' ')
-        
-    
-            
