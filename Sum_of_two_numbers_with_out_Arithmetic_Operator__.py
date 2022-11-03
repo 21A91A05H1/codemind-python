@@ -1,2 +1,7 @@
+import math
 x,y=map(int,input().split())
-print(x+y)
+while (y != 0):
+        carry = x & y 
+        x = x ^ y
+        y = carry << 1
+print(x)
