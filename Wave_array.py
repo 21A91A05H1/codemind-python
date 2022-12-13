@@ -33,6 +33,3 @@ elif a[0]>a[1]:
         print('yes')
     else:
         print('no')
-
-            
-            
